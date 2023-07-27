@@ -1,0 +1,96 @@
+.aside {
+    padding: 8px;
+    border: solid 1px var(--color-border);
+    border-radius: 4px;
+}
+
+.contextmenu {
+    display: none;
+    position: absolute;
+    width: 200px;
+    background: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000001;
+    margin: 0;
+    padding: 0;
+}
+
+.contextmenu li {
+    border-left: 3px solid transparent;
+    list-style: none;
+}
+
+.contextmenu li:hover {
+    background: #c8c8c9;
+    border-left: 3px solid #1976d2;
+}
+
+.contextmenu li span {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.contextmenu li span:hover {
+    color: #1976d2;
+}
+
+#logo {
+    position: fixed;
+    bottom: 8px;
+    left: 8px;
+    height: 45px;
+    width: 45px;
+    z-index: 999;
+}
+
+#layout-main {
+    width: 100%;
+}
+
+.window-tab {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+body {
+    padding-bottom: 0px !important;
+}
+
+.mdui-fab-fixed {
+    z-index: 999999;
+}
+
+    .a-upload {
+        padding: 4px 10px;
+        /*height: 34px;*/
+        line-height: 28px;
+        position: relative;
+        cursor: pointer;
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74;
+        border-radius: 4px;
+        overflow: hidden;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+    }
+    .a-upload input {
+        position: absolute;
+        font-size: 100px;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        cursor: pointer
+    }
+    .a-upload:hover {
+        color: #FFFFFF;
+        background: #337ab7;
+        border-color: #204d74;
+        text-decoration: none;
+    }

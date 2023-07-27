@@ -1,0 +1,7 @@
+.vscode
+data.json
+base.php
+.user.ini
+data.db
+statics/img/*.jpg
+nohup.out

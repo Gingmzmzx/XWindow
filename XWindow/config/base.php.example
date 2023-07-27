@@ -1,0 +1,36 @@
+<?php return array (
+  // 必填内容
+  'site_name' => 'Title',  // 网站标题
+  'site_name_small' => '',  // 网站副标题
+  'site_domain' => "https://xxx.com",  // 网站域名（前面带有http头且末尾不带`/`）
+  'site_root_path' => '/path/to/the/root',
+  
+  // 下面是选填内容，不使用对应lib就可以不填
+  'hCaptcha_secret' => '0xasdasdasdasdasdasd',
+  'hCaptcha_verify' => "https://hcaptcha.com/siteverify",
+  
+  "memcached_host" => "localhost",
+  "memcached_port" => "11211",
+  
+  "sqlite_dbname" => "data.db",
+
+  "mysql_ms" => "mysql",
+  "mysql_host" => "localhost",
+  "mysql_user" => "root",
+  "mysql_password" => "password",
+
+  "mailer_host" => "mail.example.com",
+  "mailer_username" => "xx@example.com",
+  "mailer_password" => "password",
+  "mailer_timeout" => 10,
+  "mailer_smtpauth" => true, // 是否启用SMTP验证
+  "mailer_smtpsecure" => "tls", // 使用ssl或tls
+  "mailer_port" => 25, // smtp端口
+  "mailer_sendermail" => "mail@example.com", // 发出邮件的邮箱地址
+  "mailer_sendername" => "自动邮件",
+  "mailer_replymail" => "admin@example.com", // 回复到该邮箱
+  "mailer_replyname" => "管理员",
+  "mailer_charset" => "UTF-8", //设定邮件编码
+  "mailer_smtpdebug" => 0, // 0为调试模式输出
+  "mailer_ishtml" => true, // 是否以HTML文档格式发送  发送后客户端可直接显示对应HTML内容
+);
